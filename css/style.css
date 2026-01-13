@@ -71,3 +71,30 @@ img{
 body{
     background-color: #fff8cf;
 }
+
+.about{
+    max-width: 736px;
+    padding: bottom;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.post-thumbnail{
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.about2{
+    max-width: 736px;
+    padding: bottom;
+    display: block;
+    margin: 0 auto;
+}
+.heading-large{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
