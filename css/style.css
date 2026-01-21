@@ -87,14 +87,45 @@ body{
     margin: 0 auto;
 }
 
-.about2{
-    max-width: 736px;
-    padding: bottom;
-    display: block;
-    margin: 0 auto;
-}
 .heading-large{
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
 }
+
+
+.item {
+    display: flex;
+    margin: 3rem auto 0;
+    box-sizing: border-box;
+    padding: 0 1.5rem;
+  }
+  
+  .item-image {
+    width: 200px;        /* 画像エリアの幅 */
+    margin-right: 20px;
+    flex-shrink: 0;      /* 画像が潰れないように */
+  }
+  
+
+  .item-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .song-title {
+    font-size: 19px;
+    margin: 0 0 10px;
+    color: #432;
+  }
+  
+  .description {
+    font-size: 15.5px;
+    line-height: 1.8;
+    margin: 1rem auto 0;
+    color: #432;
+  }
+  
